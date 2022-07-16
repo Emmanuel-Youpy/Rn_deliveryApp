@@ -125,21 +125,21 @@ const RestaurantScreen = () => {
             id="1"
             name="Emmy"
             description="This is a description of what the dish looks like"
-            price="30"
+            price={10}
             image="https://media.istockphoto.com/photos/assorted-spanish-food-picture-id1127495458?s=170667a"
           />
           <DishRow
             id="2"
             name="Emmy"
             description="This is a description of what the dish looks like"
-            price="30"
+            price={34}
             image="https://media.istockphoto.com/photos/assorted-spanish-food-picture-id1127495458?s=170667a"
           />
           <DishRow
             id="3"
             name="Emmy"
             description="This is a description of what the dish looks like"
-            price="30"
+            price={34}
             image="https://media.istockphoto.com/photos/assorted-spanish-food-picture-id1127495458?s=170667a"
           />
           <View style={{ height: 120 }} />

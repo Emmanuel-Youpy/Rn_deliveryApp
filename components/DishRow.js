@@ -70,7 +70,6 @@ const DishRow = ({ id, name, description, price, image }) => {
           </View>
         </View>
       )}
-      {/* <View style={{ height: 35 }} /> */}
     </>
   );
 };
