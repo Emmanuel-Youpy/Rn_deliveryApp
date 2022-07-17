@@ -102,7 +102,7 @@ const RestaurantScreen = () => {
           <TouchableOpacity className="flex-row items-center space-x-2 p-4 border-y border-gray-300">
             <QuestionMarkCircleIcon color="gray" opacity={0.6} size={20} />
             <Text className="pl-2 flex-1 text-md font-bold">
-              Have a food allergies
+              Have a food allergies?
             </Text>
             <ChevronRightIcon color="#00CCBB" />
           </TouchableOpacity>
@@ -123,24 +123,38 @@ const RestaurantScreen = () => {
         ))} */}
           <DishRow
             id="1"
-            name="Emmy"
-            description="This is a description of what the dish looks like"
+            name="Sunazi"
+            description="A very rare delicacy made with unazi"
             price={10}
             image="https://media.istockphoto.com/photos/assorted-spanish-food-picture-id1127495458?s=170667a"
           />
           <DishRow
             id="2"
-            name="Emmy"
-            description="This is a description of what the dish looks like"
-            price={34}
-            image="https://media.istockphoto.com/photos/assorted-spanish-food-picture-id1127495458?s=170667a"
+            name="Okazi lettus"
+            description="Hand made local meal"
+            price={24}
+            image="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/one-pot-meals-salmon-artichoke-1577121837.jpg"
           />
           <DishRow
             id="3"
-            name="Emmy"
-            description="This is a description of what the dish looks like"
+            name="Babelus fetus"
+            description="All flavors in one dish"
             price={34}
-            image="https://media.istockphoto.com/photos/assorted-spanish-food-picture-id1127495458?s=170667a"
+            image="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2019%2F07%2F23%2FSingleSkilletCavatappiRatatouille_197.jpg"
+          />
+          <DishRow
+            id="4"
+            name="Beans Semon"
+            description="Prepared using white beans"
+            price={15}
+            image="https://static.onecms.io/wp-content/uploads/sites/24/2019/02/2565301_hiahp0530_0_0_0_0-1.jpg"
+          />
+          <DishRow
+            id="5"
+            name="Bandanas voil"
+            description="Made from flour"
+            price={30}
+            image="https://loveincorporated.blob.core.windows.net/contentimages/gallery/d9e900e4-212e-4c3d-96d5-cb14a023c659-worlds-most-delicious-dishes.jpg"
           />
           <View style={{ height: 120 }} />
         </View>

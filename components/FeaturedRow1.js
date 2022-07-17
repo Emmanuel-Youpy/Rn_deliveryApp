@@ -29,8 +29,8 @@ const FeaturedRow1 = ({ title, description, featuredCategory }) => {
           address="Phase 4"
           short_description="this is a text"
           dishes={[]}
-          long={20}
-          lat={0}
+          long={6.4983}
+          lat={3.3486}
         />
         <RestaurantCard
           id={1}
@@ -41,8 +41,8 @@ const FeaturedRow1 = ({ title, description, featuredCategory }) => {
           address="kwele path 4"
           short_description="this is a text"
           dishes={[]}
-          long={20}
-          lat={0}
+          long={6.4983}
+          lat={3.3486}
         />
         <RestaurantCard
           id={1}
@@ -53,8 +53,8 @@ const FeaturedRow1 = ({ title, description, featuredCategory }) => {
           address="opposite balogun estate"
           short_description="this is a text"
           dishes={[]}
-          long={20}
-          lat={0}
+          long={6.4983}
+          lat={3.3486}
         />
       </ScrollView>
     </View>

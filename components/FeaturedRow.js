@@ -27,10 +27,10 @@ const FeaturedRow = ({ title, description, featuredCategory }) => {
           rating={4.5}
           genre="Ikoyi"
           address="Dino estate"
-          short_description={description}
+          short_description="The very best available"
           dishes={[]}
-          long={20}
-          lat={0}
+          long={6.4983}
+          lat={3.3486}
         />
         <RestaurantCard
           id={1}
@@ -39,10 +39,10 @@ const FeaturedRow = ({ title, description, featuredCategory }) => {
           rating={4.5}
           genre="Ajah"
           address="Madera road"
-          short_description={description}
+          short_description="Hot and well preserved"
           dishes={[]}
-          long={20}
-          lat={0}
+          long={6.4983}
+          lat={3.3486}
         />
         <RestaurantCard
           id={1}
@@ -51,10 +51,10 @@ const FeaturedRow = ({ title, description, featuredCategory }) => {
           rating={4.5}
           genre="Japanese"
           address="123 str rd"
-          short_description={description}
+          short_description="okai yumoning basekitu"
           dishes={[]}
-          long={20}
-          lat={0}
+          long={6.4983}
+          lat={3.3486}
         />
         <RestaurantCard
           id={1}
@@ -63,10 +63,10 @@ const FeaturedRow = ({ title, description, featuredCategory }) => {
           rating={4.5}
           genre="Spanish"
           address="Madrid"
-          short_description="this is a text"
+          short_description="Lecuzi special spanish rice"
           dishes={[]}
-          long={20}
-          lat={0}
+          long={6.4983}
+          lat={3.3486}
         />
       </ScrollView>
     </View>

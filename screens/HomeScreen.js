@@ -45,16 +45,16 @@ const HomeScreen = () => {
       });
   }, []);
 
-  console.log(featuredCategory);
+  // console.log(featuredCategory);
 
   return (
     <SafeAreaView className="bg-white pt-5">
       {/* Header */}
       <View className="flex-row pb-3 items-center mx-4 space-x-2 ">
-        <MaterialIcons name="account-circle" size={65} color="black" />
-        {/* <Image
+        <Image
           source={{
-            uri: "https://links.papareact.com/wre",
+            uri:
+              "https://thumbs.dreamstime.com/b/portrait-beautiful-young-woman-vacation-beach-taking-selfie-gesturing-peace-sign-beautiful-young-woman-99289070.jpg",
           }}
           style={{
             width: 70,
@@ -63,7 +63,7 @@ const HomeScreen = () => {
             padding: 4,
             borderRadius: 35,
           }}
-        /> */}
+        />
         <View style={{ flex: 1 }}>
           <Text style={{ fontWeight: "bold", color: "gray" }}>Deliver New</Text>
           <Text style={{ fontWeight: "bold", fontSize: 20 }}>

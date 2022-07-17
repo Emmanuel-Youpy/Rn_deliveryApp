@@ -37,7 +37,7 @@ const BasketScreen = () => {
     setGroupedIconInBasket(groupedItems);
   }, [items]);
 
-  console.log(groupedIconInBasket);
+  //   console.log(groupedIconInBasket);
   return (
     <SafeAreaView className="flex-1 bg-white">
       <View className="flex-1 bg-gray-100">
